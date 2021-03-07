@@ -4,6 +4,7 @@
   "description": "Homepage for Juno's website (based on Studion Events website model)",
   "main": "src/Index.html",
   "scripts": {
+    "start": "npx live-server src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
