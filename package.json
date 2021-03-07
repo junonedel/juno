@@ -1,0 +1,27 @@
+{
+  "name": "juno",
+  "version": "0.0.1",
+  "description": "Homepage for Juno's website (based on Studion Events website model)",
+  "main": "src/Index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junonedel/juno.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Juno Nedel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junonedel/juno/issues"
+  },
+  "homepage": "https://github.com/junonedel/juno#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
