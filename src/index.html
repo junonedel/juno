@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Juno</title>
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="logo-juno">Juno's <span class="copy--primary">Website</span>
-          <span class="logo-juno__subtitle"> Eventos</span>
-        </h1>
+      <h1 class="logo-juno">
+        Juno's <span class="copy--primary">Website</span>
+        <span class="logo-juno__subtitle"> Eventos</span>
+      </h1>
       <ul class="navbar__links">
         <li><a href="#Empresa">Empresa</a></li>
 
@@ -27,9 +28,19 @@
     <header>
       <div id="slider">
         <div class="slide">
-          <h6><span>Próximo evento</span>- Dia 25 de setembro, às 19h</h6>
-          <h2><span>Creative</span> Minds</h2>
-          <button>Saiba Mais</button>
+          <img
+            class="slide__background-image"
+            src="./images/banner.jpg"
+            alt="Juno's Website Banner"
+          />
+          <div class="slide__copy">
+            <h6>
+              <span class="copy--primary">Próximo evento</span> - Dia 25 de
+              setembro, às 19h
+            </h6>
+            <h2><span class="copy--primary">Creative</span> Minds</h2>
+            <button class="btn btn--slide">Saiba Mais</button>
+          </div>
         </div>
       </div>
     </header>
@@ -69,7 +80,7 @@
 
       <section>
         <div>
-          <img src="./images/institutional.jpg"/>
+          <img src="./images/institutional.jpg" />
           <h6>
             Você informa a temática e nós planejamos um evento com tecnologia e
           </h6>
