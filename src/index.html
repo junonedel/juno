@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,24 +8,28 @@
     <link rel="stylesheet" href="style.css" />
     <title>Juno</title>
   </head>
+
   <body>
     <nav class="navbar">
-      <h1 class="logo-juno">
-        Juno's <span class="copy--primary">Website</span>
-        <span class="logo-juno__subtitle"> Eventos</span>
-      </h1>
-      <ul class="navbar__links">
-        <li><a href="#Empresa">Empresa</a></li>
+      <div class="container navbar__container">
+        <h1 class="logo-juno">
+          Juno's <span class="copy--primary">Website</span>
+          <span class="logo-juno__subtitle"> Eventos</span>
+        </h1>
+        <ul class="navbar__links">
+          <li><a href="#Empresa">Empresa</a></li>
 
-        <li><a href="#Eventos">Eventos </a></li>
+          <li><a href="#Eventos">Eventos </a></li>
 
-        <li><a href="#Galeria">Galeria</a></li>
+          <li><a href="#Galeria">Galeria</a></li>
 
-        <li><a href="#Depoimentos">Depoimentos </a></li>
+          <li><a href="#Depoimentos">Depoimentos </a></li>
 
-        <li><a href="#Contato">Contato</a></li>
-      </ul>
+          <li><a href="#Contato">Contato</a></li>
+        </ul>
+      </div>
     </nav>
+
     <header>
       <div id="slider">
         <div class="slide">
@@ -44,27 +49,39 @@
         </div>
       </div>
     </header>
+
     <main>
-      <section id="Eventos">
-        <ul>
+      <section id="counter">
+        <ul class="container counter__container">
           <li>
-            <h3>+ de 500</h3>
-            eventos realizados
+            <h3>
+              + de 500
+              <small>eventos realizados</small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 1.000.000</h3>
-            de ingressos vendidos
+            <h3>
+              + de 1.000.000
+              <small>ingressos vendidos</small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 300</h3>
-            empresas atendidas
+            <h3>
+              + de 300
+              <small>empresas atendidas</small>
+            </h3>
           </li>
         </ul>
       </section>
-      <section>
-        <div>
+      <section class="container institutional">
+        <img
+          class="institutional__image"
+          src="./images/institutional.jpg"
+          alt="Juno's Website Institutional"
+        />
+        <div class="institutional__copy">
           <h6>Fazemos seu evento acontecer</h6>
-          <h4>Lorem Ipsum Dolor sit Amet</h4>
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iure ab
             maxime, tempora ex beatae alias culpa doloribus iusto at, dolorem
@@ -74,13 +91,12 @@
             quaerat, consequuntur recusandae asperiores suscipit, sapiente aut
             quia, odio nesciunt iure.
           </p>
-          <p>Saiba Mais</p>
+          <button class="btn btn--institutional">Saiba Mais</button>
         </div>
       </section>
 
       <section>
         <div>
-          <img src="./images/institutional.jpg" />
           <h6>
             Você informa a temática e nós planejamos um evento com tecnologia e
           </h6>
@@ -89,6 +105,7 @@
         </div>
       </section>
     </main>
+
     <footer>
       <h2>Ju<span>no</span><span> Eventos</span></h2>
       <form>
