@@ -1,7 +1,7 @@
 {
   "name": "juno",
   "version": "0.0.1",
-  "description": "Homepage for Juno's website (based on Studion Events website model)",
+  "description": "Homepage for Juno's website (based on Studion website model)",
   "main": "src/Index.html",
   "scripts": {
     "start": "npx live-server src/",
