@@ -151,9 +151,9 @@ ul {
 .btn:active,
 .btn:focus,
 .btn--institutional {
-    border-color: var(--color-primary);
-    background-color: var(--color-primary);
-    color: #fff;
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 #counter {
@@ -163,12 +163,13 @@ ul {
 }
 
 .counter__container {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-place-items: center;
-text-align: center;
-margin: auto;
-padding: 1.5rem 1rem;}
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 1.5rem 1rem;
+}
 
 .counter__container h3 {
   font-size: 2.1875rem;
@@ -217,5 +218,53 @@ padding: 1.5rem 1rem;}
 
 .btn--institutional:hover {
   color: var(--color-copy);
+  background: unset;
+}
+
+.quote {
+  background-image: url(./images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  height: 80vh;
+}
+
+.quote__copy {
+  background-color: #fff;
+  padding: 5.625rem 4.375rem;
+}
+
+.quote__copy h6 {
+  font-weight: 400;
+  font-size: .9375rem;
+  letter-spacing: .1875;
+  line-height: 1.5;
+  text-transform: uppercase;
+  max-width: 40ch;
+  margin: 0;
+}
+
+.quote__copy h2 {
+  font-size: 5rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  margin: 2.5rem 0;
+}
+
+.quote__copy span {
+  display: block;
+  margin-bottom: 1.875rem;
+}
+
+.btn--quote {
+  color: var(--color-copy);
+  border-color: var(--color-copy);
   background: unset;
 }
