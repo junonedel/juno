@@ -108,23 +108,38 @@
       </section>
     </main>
 
-    <footer>
-      <h2>Ju<span>no</span><span> Eventos</span></h2>
-      <form>
-        <label> Receba news e promoções </label>
-        <input type="email" placeholder="e-mail" />
-        <button type="submit">Enviar</button>
-      </form>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-        </li>
-        <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
-        <li><a href="https://youtube.com/" target="_blank">Youtube</a></li>
-      </ul>
-      <hr />
+    <footer class= "footer">
+      <div class="container footer__container">
+        <h2 class="logo-juno">Ju<span class="copy--primary">no</span><span class="logo-juno__subtitle"> Eventos</span></h2>
+        <form class="footer__form">
+          <label for="email"> Receba news e promoções </label>
+          <div class="footer__form__email">
+            <input id="email" type="email" placeholder="e-mail" />
+            <button class="footer__form-button" type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+          </div>
+        </form>
+        <ul class="footer__social">
+          <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook fa-2x"> </i>
+              </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank"> 
+              <i class="fab fa-twitter"></i>
+          </a>
+          </li>
+          <li>
+            <a href="https://youtube.com/" target="_blank">
+              <i class="far fa-play-circle fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
       <p>
-        <small>Ju<span>no</span></small> - todos os direitos reservados.
+        <small>
+          Ju<span class="copy--primary">no</span> - todos os direitos reservados.
+        </small>
       </p>
     </footer>
   </body>

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 * {
   box-sizing: border-box;
@@ -156,6 +157,13 @@ ul {
   color: #fff;
 }
 
+.btn--institutional:hover {
+  color: var(--color-primary);
+  background: unset;
+  box-shadow: 0 1rem 1rem #0006;
+
+}
+
 #counter {
   background-color: var(--color-primary);
   color: #fff;
@@ -255,7 +263,7 @@ ul {
   font-size: 5rem;
   line-height: 3rem;
   text-transform: uppercase;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0 2.5rem 0;
 }
 
 .quote__copy span {
@@ -267,4 +275,125 @@ ul {
   color: var(--color-copy);
   border-color: var(--color-copy);
   background: unset;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto) ;
+  align-items: center;
+  padding: 3rem;
+  border-bottom: 0.1rem solid #fff3;
+}
+
+.footer .logo-juno {
+  justify-self: start;
+  margin: 0;
+}
+
+.footer .logo-juno__subtitle {
+  display: block;
+}
+
+
+.footer__form {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 9ch auto;
+  gap: .25rem;
+}
+
+.footer__form label {
+  font-size: .875rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer__form__email {
+  display: grid;
+  grid-template-columns: auto 3.375rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.footer__form input {
+  background-color: var(--color-primary);
+  border: unset;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #000;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer__form input::placeholder{
+  color:#000
+}
+
+.footer__form input:focus {
+  outline: unset;
+}
+
+.footer__form button {
+  cursor: pointer;
+  transition: 0.3s all ease;
+  background: white;
+  height: 100%;
+  border: unset;
+  border-radius: 0 5px 5px 0;
+}
+
+.footer__form button:hover {
+  color:#fff;
+  background-color: var(--color-copy);
+}
+
+.footer__social {
+  justify-self: end;
+}
+
+.fab {
+  cursor: pointer;
+  transition: 0.3s all ease;
+  background-color:#fff;
+  border-radius: 30px;
+  color:#000;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  margin: auto 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.far {
+  cursor: pointer;
+  transition: 0.3s all ease;
+  color:  #fff;
+  display: inline-block;
+  font-size: 41px;
+  margin: auto 4px;
+}
+
+.fab:hover {
+  color:#000;
+  background-color: var(--color-primary);
+}
+
+.far:hover {
+  color: var(--color-primary);
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1rem 0;
 }
