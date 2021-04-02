@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: var(--color-copy);
+} 
+    
+body {
+    margin: 0;
+    padding-top: 7.75rem;
+}
+
+header, main, footer {
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo-juno {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 1.3ch;
+  font-size: 25px;
+}
+
+.logo-juno__subtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.logo-juno a {
+text-decoration: none;
+color: white;
+}
